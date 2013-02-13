@@ -45,9 +45,9 @@ desc
     s.specification_version = 3
 
     s.add_runtime_dependency('resque', ["~> 1.9"])
-    s.add_runtime_dependency('resque-meta', ["~> 1.0"])
+    s.add_runtime_dependency('resque-meta', ["~> 2.0"])
   else
     s.add_dependency('resque', ["~> 1.9"])
-    s.add_dependency('resque-meta', ["~> 1.0"])
+    s.add_dependency('resque-meta', ["~> 2.0"])
   end
 end
